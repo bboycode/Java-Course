@@ -3,7 +3,6 @@ public class Player {
 	
 	private int id;
 	private int rating;
-	private int goals;
 
 	public Player(int id, int rating) {
 	
@@ -11,11 +10,6 @@ public class Player {
 		this.rating = rating;
 	}
 	
-	public int getGoals() {
-		
-		return goals;
-	}
-
 	public int getId() {
 
 		return id; 
